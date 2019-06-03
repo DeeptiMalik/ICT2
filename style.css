@@ -1,0 +1,268 @@
+body{
+
+
+	margin: 0 0 5% 0;
+	padding: 0;
+	background-color: black;
+}
+.logo{
+
+	    width: 50%;
+    height: auto;
+    margin: 0 25%;
+}
+.cname,h2,h1{
+
+	    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 900;
+    color: goldenrod;
+}
+.borderclass{
+
+	padding: 1% 0;
+	border:5px double gold;
+	margin-bottom: 1%;
+}
+.clearfix{ clear:both;}
+#menu{ display:block; width:100%; height:50px; background-color:transparent; text-align:center;}
+#menu ul{ display:block; width:100%; margin:0px; padding:0px;}
+#menu ul li{ display:inline; list-style:none; margin:0px; padding:0px;}
+#menu ul li a{ display:inline-block; background-color:gold; padding:0 3% 0 3%; text-decoration:none; color:#000; height:30px; line-height:30px;}
+#menu ul li a:hover,#menu ul li .selected a{ background-color:transparent; color:gold;  border-bottom: 1px solid #ff0; box-sizing: border-box; border-top: 1px solid #ff0;}
+tr td a{
+
+	font-weight: 600;
+}
+table{
+	width: 90%; margin: 0 auto; text-align: center; overflow: auto;
+}
+.menu1{
+
+	display: none;
+}
+input,select,textarea{
+
+	display: block;
+	width: 80%;
+	margin: 1% auto 0;
+	padding: 1%;
+	font-weight: 500;
+
+
+}
+
+
+input:hover,select:hover,textarea:hover{
+	background-color: #ffD;
+	border-bottom-left-radius: 5px;
+	border-bottom: 1px solid goldenrod;
+	border-left:5px solid goldenrod;
+	box-sizing: border-box;
+}
+input[type=submit]{
+
+	width: auto;
+}
+input[type=submit]:hover{
+
+	/*background-color: transparent;*/
+	/*border:5px double goldenrod;*/
+	box-sizing: border-box;
+}
+
+::placeholder{
+
+	color: black;
+	font-weight: 400;
+
+}
+/*.col-md-3{
+	margin:0;
+	padding:  1.54em 1em;
+	width: 25%;
+	box-sizing: border-box;
+	display: inline-block;
+
+
+}
+*//*--/inner-content-start--*/
+.outter-wp {
+    padding: 1.5em 1.5em;
+	    margin-bottom: 2em;
+}
+.widget {
+       width: 22.5%;
+    padding: 0px;
+    display: inline-block;
+}
+.widget.states-mdl {
+    margin: 0 2%;
+}
+.widget.states-thrd {
+    margin-right: 2%;
+}
+.stats-left {
+       float: left;
+    width: 70%;
+    color: black!important;
+    background-color: gold;
+    text-align: center;
+    padding: 0.58em;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+}
+.states-mdl .stats-left {
+    background-color: gold;
+}
+
+.states-mdl .stats-right {
+	  border: none;
+    border-right: 2px solid gold;
+}
+.states-last .stats-left {
+    background-color: gold;
+	 border: none;
+}
+.states-last.stats-right {
+    background-color: white;
+	 border: none;
+    border-right: 2px solid gold;
+}
+.states-thrd .stats-left {
+ background-color: gold;
+}
+.widget.states-last .stats-right {
+	  border: none;
+       border-right: 2px solid gold;
+}
+.stats-right {
+       float: right;
+    width: 30%;
+    color: black;
+    text-align: center;
+    padding: 1.2em 1em;
+    background-color: white;
+    border: none;
+    border-right: 2px solid gold;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.stats-left h5 {
+    color: black!important;
+    font-size: 1em;
+}
+.stats-left h4 {
+    font-size: 2em;
+    color: black!important;
+    margin-top: 10px;
+	font-weight: 400;
+}
+.stats-right label {
+    font-size: 2em;
+    color: #3E3D3D;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 850px){
+	html{
+
+		width: 100%;
+	}
+	body{
+
+		width: 100%;
+	}
+	table{
+	width: 90%; margin: 0 auto; text-align: center; overflow: auto;
+}
+.widget {
+    width: 90%;
+    padding: 0px;
+    margin: 1% 5%;
+}
+#menu {
+
+	display: none;
+
+}
+	.menu1{
+		display: block;	
+
+    transition: 1s;
+	
+    }
+	#menu ul li a {
+    display: inline-block;
+    background-color: gold;
+    padding: 0 3% 0 3%;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    margin: 1px;
+    transition: 1s;
+}
+.cname, h2, h1 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 900;
+    color: goldenrod;
+    font-size: 25px;
+    line-height: 50px;
+    display: block;
+}
+
+.widget.states-mdl {
+    margin: 1% 5%;
+}
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 25px;
+    color:#ff0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .fa-bars{
+
+    font-size: 25px;
+    color: #ff0;
+  }
+}
+
